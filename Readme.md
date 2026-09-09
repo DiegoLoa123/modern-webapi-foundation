@@ -68,7 +68,7 @@ docker build -t dotnet-pruebas-api .
 Ejecutar el contenedor:
 
 ```bash
-docker run --rm -p 8081:80 --name mi_api_tmp dotnet-pruebas-api
+docker run --rm -p 8080:8080 --name mi_api_tmp dotnet-pruebas-api
 ```
 
 Después, consulta `http://localhost:8081/api/hello`.
