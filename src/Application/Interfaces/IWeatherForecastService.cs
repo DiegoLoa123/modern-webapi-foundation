@@ -1,6 +1,6 @@
-using ProyPruebasApi.Application.Contracts;
+using ProyPruebasApi.src.Application.Contracts;
 
-namespace ProyPruebasApi.Application.Interfaces;
+namespace ProyPruebasApi.src.Application.Interfaces;
 
 public interface IWeatherForecastService
 {

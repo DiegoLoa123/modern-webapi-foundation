@@ -1,9 +1,10 @@
-namespace ProyPruebasApi.Application.Contracts;
+namespace ProyPruebasApi.src.Application.Contracts;
 
 public sealed record WeatherForecastResponse(
     DateOnly Date,
     int TemperatureC,
-    string? Summary)
+    string? Summary
+)
 {
     public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
 }

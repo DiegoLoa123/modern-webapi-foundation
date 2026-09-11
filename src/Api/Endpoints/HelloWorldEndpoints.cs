@@ -1,6 +1,6 @@
-using ProyPruebasApi.Application.Interfaces;
+using ProyPruebasApi.src.Application.Interfaces;
 
-namespace ProyPruebasApi.Api.Endpoints;
+namespace ProyPruebasApi.src.Api.Endpoints;
 
 public static class HelloWorldEndpoints
 {

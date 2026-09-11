@@ -1,0 +1,34 @@
+src
+├───Api
+│   └───Endpoints
+│           HelloWorldEndpoints.cs
+│           ProductEndpoints.cs
+│           WeatherEndpoints.cs
+│           
+├───Application
+│   ├───Contracts
+│   │       CreateProductRequest.cs
+│   │       HelloWorldResponse.cs
+│   │       ProductResponse.cs
+│   │       UpdateProductRequest.cs
+│   │       WeatherForecastResponse.cs
+│   │       
+│   └───Interfaces
+│           IHelloWorldService.cs
+│           IProductService.cs
+│           IWeatherForecastService.cs
+│           
+├───Domain
+│   └───Entities
+│           Product.cs
+│           
+├───Infrastructure
+│   └───Services
+│           HelloWorldService.cs
+│           ProductService.cs
+│           WeatherForecastService.cs
+│           
+├───Properties
+│       launchSettings.json
+│
+Program.cs
